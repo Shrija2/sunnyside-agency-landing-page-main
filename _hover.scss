@@ -1,0 +1,23 @@
+header button:hover{
+    background-color: hsl(198, 97%, 73%);
+    color:white;
+    cursor: pointer;
+}
+
+.transform-text a:hover{
+    border-bottom:solid 5px hsl(51, 100%, 49%);
+    cursor: pointer;
+} 
+.standout-text a:hover{
+    border-bottom:solid 5px hsl(7, 99%, 70%);
+    cursor: pointer;
+}  
+
+footer li:hover{
+    color:white;
+    cursor: pointer;
+}
+footer img:hover {
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+}
