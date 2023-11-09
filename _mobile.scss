@@ -42,22 +42,17 @@ nav{
     .hamburger-menu{
         display: block;
         padding:auto;
-        margin-left:60%;
+        margin-left:70%;
         cursor: pointer;
     }
     .desktop-nav {
         display: none;
     }
-}
-       
+} 
     }
-
-
    #content{
     grid-template-columns: 100%;
 
-
-    
     .transform-text, .standout-text {
         padding:10% 10%;
         text-align: center;
@@ -68,11 +63,6 @@ nav{
     display: block;
    }
 }
-
-  /* #gallery{
-   display: grid;
-   }*/
-
    footer{
     padding:2%;
    }
@@ -89,7 +79,7 @@ nav{
        padding:5%;
     }
     .hamburger-menu{
-        top:0px;
+        top:4%;
         left:300px;
     }
     .nav-mobile{
@@ -149,12 +139,9 @@ nav{
     #gallery2 div{
         display: flex;
         width:50%;
-    }
-    
-   
+    }   
     }
      
-
 @media(min-width:450px){
     .image-transform-desktop, .image-standout-desktop{
         display:block;
@@ -164,8 +151,6 @@ nav{
     }
     #gallery2{
         display: none;
-    }
-    
-    
+    }   
 }
 

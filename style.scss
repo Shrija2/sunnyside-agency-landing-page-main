@@ -10,7 +10,7 @@ body{
 }
 p{
     font-family: $font-text;
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 1.5;
     color:$font-color-text;
 }
@@ -112,29 +112,7 @@ header{
     }
 }
 
-/*
-.nav-mobile {
-    position: relative;
-    margin:0;
-    .nav-menu-mobile {li{
-    display: block;
-    color:$font-color-text;
-    text-align: center;
-    padding:5% ;
-    background-color: white;
-    width:150px;
-    position: absolute;
-    }}}/*
-.triangle-div{
-    width:15px;
-    height:15px;
-    background-color: white;
-    position: absolute;
-    top:1px;
-    right:90px;
-    border-top-left-radius: 100%;        
 
-}}*/
 
 //CONTENT STYLE
 #content{
