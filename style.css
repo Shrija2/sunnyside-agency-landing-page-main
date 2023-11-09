@@ -5,7 +5,7 @@ body {
 
 p {
   font-family: Barlow;
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.5;
   color: hsl(232, 10%, 55%);
 }
@@ -101,29 +101,6 @@ header .down-arrow {
   left: 218px;
 }
 
-/*
-.nav-mobile {
-    position: relative;
-    margin:0;
-    .nav-menu-mobile {li{
-    display: block;
-    color:$font-color-text;
-    text-align: center;
-    padding:5% ;
-    background-color: white;
-    width:150px;
-    position: absolute;
-    }}}/*
-.triangle-div{
-    width:15px;
-    height:15px;
-    background-color: white;
-    position: absolute;
-    top:1px;
-    right:90px;
-    border-top-left-radius: 100%;        
-
-}}*/
 #content {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -300,7 +277,7 @@ footer img:hover {
   header nav .hamburger-menu {
     display: block;
     padding: auto;
-    margin-left: 60%;
+    margin-left: 70%;
     cursor: pointer;
   }
   header nav .desktop-nav {
@@ -316,9 +293,6 @@ footer img:hover {
   #testimonials .clients {
     display: block;
   }
-  /* #gallery{
-   display: grid;
-   }*/
   footer {
     padding: 2%;
   }
@@ -333,7 +307,7 @@ footer img:hover {
     padding: 5%;
   }
   .hamburger-menu {
-    top: 0px;
+    top: 4%;
     left: 300px;
   }
   .nav-mobile .triangle-div {
