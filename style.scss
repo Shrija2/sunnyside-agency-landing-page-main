@@ -21,6 +21,7 @@ header{
     color:$header-text-color;
     height:100vh;
     padding-top:2%;
+    position: relative;
 
     nav{
         display: grid;
@@ -68,7 +69,9 @@ header{
     }
 
     .down-arrow{
-       padding:4% 50% 7% 49%;
+       position: absolute;
+       top:50%;
+       right:50%;
        height:15%;
     }
 }
